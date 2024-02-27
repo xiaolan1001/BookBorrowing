@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/Login",
+    "pages/mainPage/Index",
+    "pages/searchPage/SearchPage",
+    "pages/bookPage/BookPage",
+    "pages/borrowPage/BorrowPage",
+    "pages/articlePage/ArticlePage",
+    "pages/articlePage/ArticleDetail"
+  ]
+}

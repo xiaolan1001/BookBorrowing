@@ -1,0 +1,16 @@
+export default class ArticleItem {
+  /**
+   * 推荐的文章封面
+   */
+  image:ResourceStr
+
+  /**
+   * 文章标题
+   */
+  title:string
+
+  constructor(image:ResourceStr,title:string) {
+    this.image = image
+    this.title = title
+  }
+}

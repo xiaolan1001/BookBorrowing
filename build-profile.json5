@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Summer Sue\\.ohos\\config\\auto_debug_BookBorrowing_cn.ccsu.bookborrowing_260086000097013947.cer",
+          "storePassword": "0000001BCB9D92C16DE0AED51A1A978570DF57D07DD3E13611799BBB28F6D9F385463FBED9DB10359AD3A3",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B3D26260586D7F80D7CAB7746D53DA17814646EFF2CBF366CA0BABC3C11AC428B3AE011723E7B7D",
+          "profile": "C:\\Users\\Summer Sue\\.ohos\\config\\auto_debug_BookBorrowing_cn.ccsu.bookborrowing_260086000097013947.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Summer Sue\\.ohos\\config\\auto_debug_BookBorrowing_cn.ccsu.bookborrowing_260086000097013947.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
