@@ -210,7 +210,7 @@ INSERT INTO book (title,author,isbn,book_content,book_cover_img,publisher,availa
 ![借阅](https://github.com/xiaolan1001/BookBorrowingResource/blob/main/UI/borrow.png)
 
 #### 3.6 图书详情
-![图书详情](https://github.com/xiaolan1001/BookBorrowingResource/blob/main/UI/detial.png)
+![图书详情](https://github.com/xiaolan1001/BookBorrowingResource/blob/main/UI/detail.png)
 
 #### 3.7 搜索
 ![搜索](https://github.com/xiaolan1001/BookBorrowingResource/blob/main/UI/search.png)
